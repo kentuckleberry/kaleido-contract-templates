@@ -3,18 +3,23 @@ configVersion = 1.0.0
 type = apiEntityData
 
 [config]
-id = 
+id = 7cd19403-9b6a-4443-969c-094a1862af76
 
 [config.relations]
 
 [config.relations.collections]
-rootDirectory = 
-files[] = {"id":"","path":"","type":"","metaData":{}}
+rootDirectory = contracts
+files[] = {"id":"26654037-ac6280e1-05de-4a35-84d7-6283de59aa36","path":"New Collection.json","metaData":{}}
+files[] = {"id":"26654037-271bdf8a-988f-411f-a72f-b5caec6418ee","path":"precompiled/firefly-tokens-erc1155/abi.json","metaData":{}}
+files[] = {"id":"26654037-018d0397-9500-4062-a27f-05a6e8aef64e","path":"precompiled/firefly-tokens-erc1155/devdocs.json","metaData":{}}
+files[] = {"id":"26654037-44abd507-72e4-48fa-992f-a32378af4382","path":"precompiled/firefly/abi.json","metaData":{}}
 
 [config.relations.collections.metaData]
 
 [config.relations.apiDefinition]
-rootDirectory = 
-files[] = {"path":"","metaData":{}}
+rootDirectory = chaincode
+files[] = {"path":"index.json","metaData":{}}
 
 [config.relations.apiDefinition.metaData]
+type = openapi:3
+rootFiles[] = index.json
