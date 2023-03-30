@@ -22,4 +22,3 @@ files[] = {"path":"index.json","metaData":{}}
 
 [config.relations.apiDefinition.metaData]
 type = openapi:3
-rootFiles[] = index.json
